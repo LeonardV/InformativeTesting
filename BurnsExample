@@ -43,3 +43,13 @@ burnsOUT
 # plot() function
 plot(burnsOUT)
 
+
+# request unconstrained parameter estimates
+summary(burnsIT$fit.B1)
+
+
+# request constrained parameter estimates
+summary(burnsIT$fit.A1)
+
+
+
